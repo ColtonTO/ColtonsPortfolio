@@ -1,8 +1,9 @@
 :root {
     --darkgrey: rgb(36, 36, 36);
     --lightblue: rgb(1, 150, 150);
-    --white: rgb(255, 255, 255);
+    --white: rgb(245, 245, 245);
     --grey: #33393f;
+    --darkishblue: rgb(70, 120, 120);
 }
 
 * {
@@ -29,7 +30,8 @@ header {
 }
 
 header div {
-    margin: -40px;
+    position: relative;
+    bottom: 50px;
     float: right;
     padding: 5px;
     font-size: 16px;
@@ -45,6 +47,7 @@ header div {
     left: 85%;
     background: var(--lightblue);
     width: 12%;
+    font-size: 24px;
 }
 
 .bottom-right {
@@ -63,7 +66,7 @@ h1 {
     font-family:'Lucida Sans';
     border: solid var(--darkgrey) 2px;
     background: var(--lightblue);
-    width: 18%;
+    width: 14%;
     border-left-width: 0px;
     position: relative;
     right: 5px;
@@ -72,9 +75,8 @@ h1 {
 
 body {
         font-family: sans-serif;
-        font-size: 1.75rem;
         line-height: 1.5;
-        background-color: var(--grey);
+        background-color: var(--white);
 }
 
 footer {
@@ -86,31 +88,32 @@ footer {
 .hero {
     height: 200px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     background-image: url("/assets/img/portfolio2.jpg"); 
     background-size: cover;
     background-position: 80% 50%;
     opacity: 70%;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-}
-
 nav {
     display: flex;
-    align-items: center;
     justify-content: center;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 100%;
+    width: 350px;
+    color: var(--darkishblue);
 }
 
 h2 {
     position: relative;
     left: -25px;
+}
+
+h3 {
+    position: absolute;
+    top: 360px;
+    left: 420px;
+    font-size: 16px;
+    text-align: left;
+    width: 1800px;
 }
 
 main {
@@ -130,7 +133,7 @@ margin-bottom: 10px;
 .work {
     border-right: 10px solid var(--lightblue);
     border-width: 5px;
-    height: 600px; 
+    height: 800px; 
     margin-bottom: 10px;
 }
 
