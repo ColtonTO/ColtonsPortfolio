@@ -9,36 +9,94 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1> Colton Taylor-Ortiz </h1>
-        <div>
-            <a href="#blank1"> <span> Sample Text </span> &nbsp; </a>
-            <a href="#blank2"> <span> Sample Text </span> &nbsp; </a>
-            <a href="#blank3"> <span> Sample Text </span> &nbsp; </a>
-            <a href="#blank4"> <span> Sample Text </span> &nbsp; </a>
-        </div>
+        <h1> 
+            Colton Taylor-Ortiz 
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me"></a>About Me</a>
+                </li>
+                <li>
+                    <a href="#work"></a>Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me"></a>Contact Me</a>
+                </li>
+                <li>
+                    <a href="#resume"></a>Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <figure class="hero"> </figure>
-    <article class="subtitle">
-        <div> Cool Subtitle Here! </div>
-    </article>
-    <nav>
-        <main>
-        <section class="aboutme">
-            <h2> About Me </h2> 
-            <h3> My name is Colton Taylor-Ortiz, I am a 21 year old UW coding bootcamp student. Prior to taking this bootcamp, I've graduated from Whatcom Community College with an AAS degree. Before that, I graduated from Squalicum High School. 
-                In terms of hobbies, I love practicing MMA, playing video games, I even like to mess with PC hardware, I've built many PCs before. One of my favorite video games ever made is Portal, and lately I've been practicing Brazilian Jiu-Jitsu.
-            </h3>
-        </section>
-        <section class="work">
-            <h2> Work </h2>
-        </section>
-        <section class="contactme"> 
-            <h2> Contact Info </h2>
-        </section>
-    </main>
-    </nav>
-    <footer>
+       
+    <!-- Banner -->
+    <section class="hero">
+        <div class="hero-subtitle">
+            <h2>Very Cool Subtitle...</h2>
+        </div>
+    </section>
+     
+    <!-- About Me -->
+    <section id="about-me">
+        <div class="section-title">
+            <h3> About </br> Me </h3>
+        </div>
+        <div class="section-content">
+            <img src="./assets/img/mepic1.jpg" alt="picture of developer" />
+            <p>
+                I'm an aspiring part-time web developer student, currently working through the UW Coding Bootcamp. When I'm not practicing coding, I'm either playing video games or practicing my MMA skills at home or at the local fight gym. </br></br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nobis blanditiis saepe ipsa est illo? Quaerat quibusdam nulla animi sed mollitia officia nobis? Necessitatibus reprehenderit modi nihil praesentium atque excepturi!
+            </p> 
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+        <h3>Work</h3>
+        <div class="flexbox-container">
+         <a class="flexbox-item flexbox-item-1" href="./assets/img/surfphoto.jpg">
+            <h4>Surf Report</h4>
+            <p>MERN Stack</p>
+         </a>
+         <a class="flexbox-item flexbox-item-2" href="./assets/img/ledphoto.jpg">
+             <h4>LED Wall</h4>
+             <p>Node/IoT</p>
+         </a>
+         <a class="flexbox-item flexbox-item-3" href="./assets/img/calculator.jpg">
+             <h4>Calculator</h4>
+             <p>React/JavaScript/CSS</p>
+         </a>
+         <a class="flexbox-item flexbox-item-4" href="./assets/img/puzzle.jpg">
+             <h4>Puzzle</h4>
+             <p>MERN Stack</p>
+         </a>
+         <a class="flexbox-item flexbox-item-5" href="./assets/img/runbuddy.jpg">
+             <h4>Runbuddy</h4>
+             <p>HTML/CSS</p>
+         </a>
+        </div>
+     </section>
+
+    <!-- Contact Me -->
+    <footer id="contact-me">
+        <h3> Contact </br> Me </h3>
+        <div>
+            <ul>
+                <li>
+                    <a href="tel:360-603-2996">360-603-2996</a>
+                </li>
+                <li>
+                    <a href="mailto: colton1105@gmail.com">colton1105@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ColtonTO">GitHub</a>
+                </li>
+            </ul>
+        </div>
     </footer>
+    
 </body>
 </html>

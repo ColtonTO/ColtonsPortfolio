@@ -12,135 +12,185 @@
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
-a span{
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
-    color: var(--lightblue);
-}
-
-header {
-    background-color: var(--darkgrey);
-    height: 80px;
-    padding: 5px;
-}
-
-header div {
-    position: relative;
-    bottom: 50px;
-    float: right;
-    padding: 5px;
-    font-size: 16px;
-    width: 25%;
-}
-
-.subtitle {
-    position: relative;
-    text-align: center;
-    color: var(--darkgrey);
-    justify-content: right;
-    bottom: 75px;
-    left: 85%;
-    background: var(--lightblue);
-    width: 12%;
-    font-size: 24px;
-}
-
-.bottom-right {
-    position: aboslute;
-    bottom: 20px;
-    right: 16px;
-}
-
-h1 {
-    margin: auto;
-    text-align: right;
-    padding: 10px;
-    margin: 1px;
-    font-size: 28px;
-    font-weight: bolder;
-    font-family:'Lucida Sans';
-    border: solid var(--darkgrey) 2px;
-    background: var(--lightblue);
-    width: 14%;
-    border-left-width: 0px;
-    position: relative;
-    right: 5px;
-    color: var(--darkgrey);
-}
-
 body {
-        font-family: sans-serif;
-        line-height: 1.5;
-        background-color: var(--white);
-}
-
-footer {
-    margin: 1.5rem;
-    text-align: center;
-    justify-content: bottom;
-}
-
-.hero {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 5px;
-    background-image: url("/assets/img/portfolio2.jpg"); 
-    background-size: cover;
-    background-position: 80% 50%;
-    opacity: 70%;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    width: 350px;
-    color: var(--darkishblue);
-}
-
-h2 {
-    position: relative;
-    left: -25px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 h3 {
-    position: absolute;
-    top: 360px;
-    left: 420px;
-    font-size: 16px;
-    text-align: left;
-    width: 1800px;
-}
-
-main {
-    margin-left: 300px;
-    padding: 10px;
+    font-size: 40px;
+    color: var(--lightblue);
+    border-right: 5px solid var(--darkishblue);
     text-align: right;
+}
+
+/* header nav bar styles  */
+header {
+    padding: 10px 20px;
+    background-color: var(--darkgrey);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    margin: 0;
     font-size: 36px;
+    color: var(--darkgrey);
+    background-color: var(--lightblue);
+    padding: 5px;
+    width: 17%;
+    text-align: right;
 }
 
-.aboutme {
-border-right: 10px solid var(--lightblue);
-border-width: 5px;
-height: 150px; 
-margin-bottom: 10px; 
+header a {
+    text-decoration: none;
+    color: var(--lightblue);
 }
 
-.work {
-    border-right: 10px solid var(--lightblue);
-    border-width: 5px;
-    height: 800px; 
-    margin-bottom: 10px;
+header nav {
+    margin: 7px 0;
 }
 
-.contactme {
-    border-right: 10px solid var(--lightblue);
-    border-width: 5px;
-    height: 125px; 
-    margin-bottom: 10px;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 28px;
+    border-bottom: 5px solid var(--lightblue);
+    font-style: oblique;
+    margin-right: 15px;
+}
+
+/* Header navbar styles end  */
+
+/* Banner styles start  */
+.hero {
+    background-image: url(../img/banner1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.hero-subtitle {
+    background-color: var(--lightblue);
+    height: 50px;
+    position: relative;
+    top: 100px;
+    padding: 10px 30px;
+    color: var(--darkgrey);
+    font-size: 24px;
+}
+
+/* About me styling  */
+#about-me {
+    display: flex;
+    height: 200px;
+    margin: 15px 0 15px 100px;
+}
+
+#about-me h3 {
+    height: 100%;
+    padding: 0 15px 0 33px;
+}
+
+.section-content {
+    display: flex;
+    margin-left: 33px;
+    justify-content: space-between;
+    width: 73%;
+}
+
+.section-content img {
+    display: flex;
+    border-style: solid;
+    border-color: var(--lightblue)
+}
+
+.section-content p {
+    flex-grow: 1;
+    padding: 10px 0px 0px 10px
+}
+
+/* Work styling  */
+#work {
+    display: flex;
+    margin: 10px 0 10px 100px;
+}
+
+#work div a {
+    text-decoration: none;
+    color: var(--darkgrey);
+}
+
+#work h3 {
+    padding: 0 15px 0 49.5px;
+}
+
+#work h4 {
+    background-color: var(--lightblue);
+}
+
+#work p {
+    background-color: var(--lightblue) ;
+}
+
+/* Footer styling  */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin:15px 0 15px 100px;
+}
+
+footer h3 {
+    padding-right: 15px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 10px 30px;
+    margin-top: 40px;
+    font-weight: lighter;
+    font-size: 16px;
+    border-bottom: 5px solid var(--lightblue);
+    font-style: oblique;
+    margin-left: 20px;
+}
+
+footer a {
+    flex-grow: 1;
+    text-decoration: none;
+    height: 100%;
+}
+
+.flexbox-item:hover {
+    opacity: 1;
+    border-radius: 25px;
+}
+
+a:hover {
+    background-color: black;
+    border-radius: 25px;
+
+}
