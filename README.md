@@ -1,5 +1,7 @@
 # Colton's Portfolio
 
+## https://coltonto.github.io/ColtonsPortfolio/#contact-me
+
 ## Hello there, thanks for checking out this repository! Below you will find details of this portfolio.
 
 - My motivation for this was to make a portfolio of work I've done that stands out.
