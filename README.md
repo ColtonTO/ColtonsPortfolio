@@ -8,7 +8,7 @@
 web developer. 
 
 - What makes this portfolio of mine stand out is how organized it is. Through the use of neat styling and well used semantics in 
-HTML, it should be a breeze for the user to pick apart. 
+HTML, it should be a breeze for the user to pick apart and digest. It is also accessible on mobile devices!
 
 ## Installation 
 -N/A
@@ -17,6 +17,7 @@ HTML, it should be a breeze for the user to pick apart.
 -N/A
 
 ## Website Screenshot
+![WebsiteScreenshot](https://user-images.githubusercontent.com/116236745/202630001-545c79b6-6d63-42d8-9a55-58a4005108e2.png)
 
 ## License 
 -N/A
