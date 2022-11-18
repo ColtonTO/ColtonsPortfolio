@@ -1,6 +1,6 @@
 # Colton's Portfolio
 
-## https://coltonto.github.io/ColtonsPortfolio/#contact-me
+## https://coltonto.github.io/ColtonsPortfolio/
 
 ## Hello there, thanks for checking out this repository! Below you will find details of this portfolio.
 
