@@ -32,6 +32,7 @@ justify-content: space-between;
 flex-wrap: wrap;
 position: sticky;
 top: 0;
+Z-index: 9999;
 }
 
 header h1 {
@@ -262,7 +263,7 @@ a:hover {
 background-color: black;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS OR MOBILE DEVICES */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND MOBILE DEVICES */
 @media screen and (max-width: 980px) {
 header {
     padding-bottom: 0;
