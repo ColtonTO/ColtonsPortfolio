@@ -22,4 +22,4 @@ HTML, it should be a breeze for the user to pick apart and digest. It is also ac
 ![WebsiteScreenshot](https://user-images.githubusercontent.com/116236745/202630001-545c79b6-6d63-42d8-9a55-58a4005108e2.png)
 
 ## License 
--N/A
+MIT License
